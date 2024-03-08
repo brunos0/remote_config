@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: colorMap[soccerTeamColor],
+        backgroundColor: isSoccer ? colorMap[soccerTeamColor] : Colors.orange,
         title: const Text(
           'MagazineApp',
           style: TextStyle(
